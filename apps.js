@@ -42,7 +42,8 @@ function mostrarCompra()
 {
     console.log("Productos comprados:");
     carrito.forEach((producto, index) => {
-      console.log(`Nombre: ${producto.nombre}, Precio: $${producto.precio}, Mesa: ${mesa}`);
+      console.log(`Nombre: ${producto.nombre}, Precio: $${producto.precio}`);
+      console.log(`Mesa: ${mesa}`);
     });
 }
 mostrarCompra();
